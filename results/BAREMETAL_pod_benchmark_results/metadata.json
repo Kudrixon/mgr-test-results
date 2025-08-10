@@ -1,0 +1,35 @@
+{
+    "timestamp": "2025-08-10T21:01:33+00:00",
+    "host": "benchmark-pod",
+    "kernel": "Linux 6.1.0-37-amd64 x86_64 GNU/Linux",
+    "cpu_info": {
+        "model": "Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz",
+        "cores": 4,
+        "threads": 4
+    },
+    "memory_info": {
+        "total_mb": ,
+        "available_mb": 
+    },
+    "test_parameters": {
+        "iterations": 100,
+        "cpu": {
+            "threads": 2,
+            "max_prime": 20000,
+            "time": 10
+        },
+        "memory": {
+            "threads": 2,
+            "total_size": "100G",
+            "block_size": "1K",
+            "time": 10
+        },
+        "disk": {
+            "size": "512M",
+            "runtime": 60,
+            "block_size": "1M",
+            "iodepth": 32,
+            "numjobs": 1
+        }
+    }
+}
