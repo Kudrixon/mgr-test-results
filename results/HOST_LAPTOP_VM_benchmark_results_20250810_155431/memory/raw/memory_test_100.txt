@@ -1,0 +1,37 @@
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 2
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1KiB
+  total size: 102400MiB
+  operation: write
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+Total operations: 46035016 (4602205.40 per second)
+
+44956.07 MiB transferred (4494.34 MiB/sec)
+
+
+General statistics:
+    total time:                          10.0001s
+    total number of events:              46035016
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    9.26
+         95th percentile:                        0.00
+         sum:                                12817.10
+
+Threads fairness:
+    events (avg/stddev):           23017508.0000/380547.00
+    execution time (avg/stddev):   6.4085/0.03
+
